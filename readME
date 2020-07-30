@@ -1,0 +1,10 @@
+http://www.mesonet.org/index.php/weather/daily_data_retrieval
+
+Stations:	NRMN
+Parms:	TMAX TMIN DMAX DMIN HMAX HMIN PDIR WSMX WSMN RAIN
+
+Download file, unzip it
+
+vi file, find and replace "
+set ff=unix
+
