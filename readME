@@ -6,5 +6,6 @@ Parms:	TMAX TMIN DMAX DMIN HMAX HMIN PDIR WSMX WSMN RAIN
 Download file, unzip it
 
 vi file, find and replace "
+%s/"//g
 set ff=unix
 
