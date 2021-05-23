@@ -9,3 +9,4 @@ vi file, find and replace "
 %s/"//g
 set ff=unix
 
+Use this for picking colors
