@@ -1,6 +1,8 @@
 # mesonet
 Python plots, to plot Oklahoma Mesonet data
 
+![mesonetPlot](mesonetPlot.png)
+
 1. Clone repo: 
 
 <code>git clone git@github.com:tiffanycmeyer13/mesonet.git</code>
