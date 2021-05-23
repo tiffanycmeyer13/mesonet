@@ -3,28 +3,31 @@ Python plots, to plot Oklahoma Mesonet data
 
 1. Clone repo: 
 
-git clone git@github.com:tiffanycmeyer13/mesonet.git
+<code>git clone git@github.com:tiffanycmeyer13/mesonet.git</code>
 
 2. Download data: http://www.mesonet.org/index.php/weather/daily_data_retrieval
 
-Stations:	NRMN
-Parms:	TMAX TMIN DMAX DMIN HMAX HMIN PDIR WSMX WSMN RAIN
+    * Stations:	NRMN
+    * Parms:	TMAX TMIN DMAX DMIN HMAX HMIN PDIR WSMX WSMN RAIN
 
-Download file, unzip it
+    * Download file, unzip it
 
-vi file, find and replace "
-%s/"//g
-set ff=unix
+        * vi file, find and replace "
+        
+        <code> %s/"//g </code>
+        
+        <code> set ff=unix </code>
 
 
-333. Enable conda environment
+3. Enable conda environment
 
-cd mesonet
-~/anaconda/bin/conda env create -f mesonet.yml
+<code>cd mesonet</code>
 
-~/anaconda3/bin/conda init bash
+<code>~/anaconda/bin/conda env create -f mesonet.yml</code>
 
-~/anacondarbin/conda activate mesonet
+<code>~/anaconda3/bin/conda init bash</code>
+
+<code>~/anacondarbin/conda activate mesonet</code>
 
 
 Use this for picking colors
